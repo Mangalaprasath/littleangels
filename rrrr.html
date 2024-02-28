@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+       <meta charset="utf-8">
+       <meta name="viewport" contest="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+       <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+       <title>client</title>
+       <style media="screen">
+           body{
+               position:relative;
+               margin-top: 3%;
+               height: 100vh;
+               background: #ffdfb8;
+               font-family: "Roboto",sans-serif;
+           }
+           .section-header{
+               position: relative;
+               padding-bottom: 10px;
+               text-align: center;
+               font-weight: bold;
+           }
+           .section-header::after{
+               content: "";
+               height: 4px;
+               width: 100px;
+               position: absolute;
+               bottom: 0;
+               left: calc(50% - 50px);
+               background: #FCA737;
+           }
+           .testimonial-view{
+               max-width: 900px;
+               padding: 0 15px 50px;
+               margin: 0 auto 70px auto;
+               border-radius: 3px;
+           }
+           .block{
+               background: #fff;
+               color: #333;
+               padding: 60px 15px 15px;
+               margin: 50px 50px;
+               box-shadow: 0 5px 30px -5px rgba(0,0,0,0.15);
+               -webkit-box-shadow: 0 5px 30px -5px rgba(0,0,0,0.15);
+           }
+           .block .row{
+               display: -webkit-box;
+               display: -ms-flexbox;
+               display: flex;
+               place-items: normal;
+           }
+           .user{
+               margin-bottom: 30px;
+               text-align: center;
+           }
+           .image{
+               position: relative;
+               margin: 0 15px 30px 15px;
+           }
+           .image img{
+               height:170px;
+               width: 170px;
+               border: 7px solid #ffdfb8;
+               border-radius: 170px;
+               box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+               -weblit-box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+           }
+           .user-name{
+               font-weight: bold;
+               margin-bottom: 10px;
+               text-align: center;
+               padding-bottom: 10px;
+               position: relative;
+           }
+           .user-name::after{
+               content: "";
+               height: 4px;
+               width: 50px;
+               position: absolute;
+               bottom: 0;
+               left: calc(50% - 25px);
+               background: #FCA737;
+           }
+           .content{
+               text-align: center;
+               font-size: 18px;
+           }
+           .carousel-control-prev{
+               left:-50px;
+           }
+           .carousel-control-next{
+               right:-50px;
+           }
+           .carousel-control-prev-icon,
+           .carousel-control-next-icon{
+               width:40px;
+               height:40px;
+           }
+       </style>
+    </head>
+   <body>
+         <section>
+             <div class="container">
+                 <h1 class="section-header">what people says</h1>
+                 <div class="testimonial-view">
+                     <div class="carousel slide" id="testimonialCarosel" data-ride="carousel">
+                         <div class="carousel-inner">
+
+
+                            <div class="carousel-item active">
+                                <div class="block">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="user">
+                                                <div class="image">
+                                                    <img src="https://i.ibb.co/34Gq5md/corresjpg.jpg" alt="client1">
+                                                </div>
+                                            <div class="info">
+                                                   <h4 class="user-name">VENGATACHALAM K</h4>
+                                                   <h6>CORRESPONDENT</h6>      
+                                            </div>
+                                            </div>
+                                        </div>
+                                    <div class="col-md-6">
+                                        <div class="content">
+                                            <h5><b> <PRE>"IF YOUR ACTIONS INSPIRE <BR>
+ OTHER DREAM MORE, <BR>
+ LEARN MORE, DO MORE <BR>
+ AND BECOME MORE, <BR>
+ YOU ARE A LEADER <BR>
+            -JOHN QUINCY ADAMS"</b> </PRE></h5>
+                                        </div>
+                                    </div>
+                                 </div>
+                                </div>
+                            </div>
+                        
+                            <div class="carousel-item ">
+                                <div class="block">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="user">
+                                                <div class="image">
+                                                    <img src="https://i.ibb.co/Y2GbyM2/sec123.jpg" alt="client2">
+                                                </div>
+                                            <div class="info">
+                                                   <h4 class="user-name">BALAKRISHNAN R</h4>
+                                                   <h6>SECRETARY</h6>      
+                                            </div>
+                                            </div>
+                                        </div>
+                                    <div class="col-md-6">
+                                        <div class="content">
+                                            <h5><b><pre>"EDUCATION IS THE <BR>
+MOST POWERFUL <BR>
+WEAPON WHICH YOU <BR>
+CAN USE TO CHANGE <BR>
+THE WORLD" <BR>
+     -NELSON MANDELA </pre></b></h5>
+                                        </div>
+                                    </div>
+                                 </div>
+                                </div>
+                            </div>
+                        
+                            <div class="carousel-item ">
+                                <div class="block">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="user">
+                                                <div class="image">
+                                                    <img src="https://i.ibb.co/jkGLfdv/prin-state.jpg" alt="client3">
+                                                </div>
+                                            <div class="info">
+                                                   <h4 class="user-name"> GANESAN S</h4>
+                                                   <h6>HEADMASTER (STATEBOARD)
+                                                   </h6>      
+                                            </div>
+                                            </div>
+                                        </div>
+                                    <div class="col-md-6">
+                                        <div class="content">
+                                            <H5><B><PRE> "EDUCATION IS NOT<BR>
+PREPARATION<BR> 
+ FOR LIFE; <BR>
+ EDUCATION IS <BR>
+  LIFE ITSELF" <BR>
+           -JOHN DEWEY</PRE></B></H5>
+                                        </div>
+                                    </div>
+                                 </div>
+                                </div>
+                            </div>
+                        
+                            <div class="carousel-item ">
+                                <div class="block">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="user">
+                                                <div class="image">
+                                                    <img src="https://i.ibb.co/xqnhbsv/mat.jpg" alt="client4">
+                                                </div>
+                                            <div class="info">
+                                                   <h4 class="user-name">DURAISAMY R</h4>
+                                                   <h6>PRINCIPAL (MATRIC)</h6>      
+                                            </div>
+                                            </div>
+                                        </div>
+                                    <div class="col-md-6">
+                                        <div class="content">
+                                            <H5><B><PRE><BR><BR>NOTHING IS IMPOSSIBLE<BR>
+ THE WORD ITSELF SAYS<BR>
+ "I'M POSSIBLE" <BR>
+           -AUDREY HEPBURN</PRE></B></H5>
+                                        </div>
+                                    </div>
+                                 </div>
+                                </div>
+                            </div>
+                        
+
+                        </div>
+                        <a class="carousel-control-prev" href="#testimonialCarosel" role="button" data-slide="prev">
+                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                               <span class="sr-only">Previous</span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#testimonialCarosel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                     </div>
+                 </div>
+             </div>
+         </section>
+   </body>
+</html>   

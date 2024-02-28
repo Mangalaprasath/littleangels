@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin:  0;
+}
+.wrapper{
+background-color:white;
+  background-size: 1000px 800px;
+  background-repeat: no-repeat;
+}
+.navbar{
+  height: 100px;
+  width: 100%;
+  background-attachment: fixed;
+  background-color:#003366;
+  background-size:contain;
+
+  }
+.navbar ul{
+  float: right;
+  margin-right: 40px;
+}
+.navbar ul li{
+  list-style: none;
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 100px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding:6px 13px ;
+  transition: .4s;
+}
+
+.navbar ul li a:hover{
+  background: yellow;
+  border-radius: 2px;
+}
+.wrapper .center{
+  position: absolute;
+  top: 80%;
+  left :50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  user-select: none;
+}
